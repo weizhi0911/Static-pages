@@ -1,0 +1,60 @@
+{
+  "name": "vue-wangyiyun",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.29",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.9.1",
+    "jquery": "^3.4.1",
+    "jsonp": "^0.2.1",
+    "lib-flexible": "^0.3.2",
+    "register-service-worker": "^1.6.2",
+    "vant-weapp": "^0.5.14",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-jsonp": "^0.1.8",
+    "vue-property-decorator": "^8.1.0",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.0",
+    "@types/mocha": "^5.2.4",
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-e2e-cypress": "^3.8.0",
+    "@vue/cli-plugin-pwa": "^3.8.0",
+    "@vue/cli-plugin-typescript": "^3.8.0",
+    "@vue/cli-plugin-unit-mocha": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-plugin-component": "^1.1.1",
+    "chai": "^4.1.2",
+    "element-theme-chalk": "^2.9.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-px2rem": "^0.3.0",
+    "sass": "^1.18.0",
+    "sass-loader": "^7.1.0",
+    "typescript": "^3.4.3",
+    "vue-cli-plugin-axios": "0.0.4",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

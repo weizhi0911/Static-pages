@@ -1,0 +1,718 @@
+.shop_tan {
+    width: 100%;
+    // height:100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 9999;
+
+    .pop_up {
+        padding: 25px 0 20px 0;
+        border: 1px solid #b1b1b1;
+        background: #FFF;
+
+        .pop_close {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            width: 10px;
+            height: 10px;
+            overflow: hidden;
+            background: url(../img/kdlphicon.png) -255px -86px no-repeat;
+            cursor: pointer;
+        }
+
+        .pop_jia {
+            font-size: 18px;
+            // font-family: "Microsoft YaHei";
+            font-weight: bold;
+            line-height: 23px;
+            text-align: center;
+            vertical-align: middle;
+
+            i {
+                display: inline-block;
+                width: 23px;
+                height: 23px;
+                margin-right: 14px;
+                background: url(../img/kdlphicon.png) -273px -148px no-repeat;
+                vertical-align: middle;
+            }
+        }
+
+        .pop_next {
+            width: 385px;
+            margin: 0 auto;
+            padding: 18px 0 25px 0;
+            text-align: center;
+
+            a {
+                border: 1px solid #ddd;
+                background: #fcfcfc;
+                color: #666;
+                display: inline-block;
+                width: 123px;
+                height: 41px;
+                margin: 0 5px;
+                line-height: 41px;
+                text-align: center;
+                font-size: 14px;
+            }
+
+            .as_cear {
+                border: 1px solid #4889f6;
+                background: #4889f6;
+                color: #FFF;
+            }
+        }
+    }
+}
+
+.nav {
+    height: 40px;
+    border-bottom: 2px solid #3284dd;
+
+    .kant_nav {
+        height: 100%;
+
+        h2 {
+            .item_list {
+                display: none;
+            }
+        }
+
+        h2:hover .item_list {
+            display: block;
+        }
+
+        .secondnav {
+            display: none;
+        }
+    }
+}
+
+
+
+.deteil {
+    background: #f5f5f5;
+    // height: 1000px;
+
+    .v7_rxcrumb {
+        text-align: left;
+        height: 35px;
+        line-height: 35px;
+        color: #888888;
+        background: #fff;
+        text-indent: 10px;
+    }
+
+    .bos {
+        background: #fff;
+
+        .detail_box {
+            height: 657px;
+            background: #fff;
+
+            .detail_left {
+                width: 398px;
+
+                .da_img {
+                    position: relative;
+                    height: 398px;
+                    border: 1px solid #eeeeee;
+
+                    img {
+                        width: 398px;
+                        height: 398px;
+                    }
+
+                    p {
+                        line-height: 48px;
+                        padding-left: 75px;
+                        width: 425px;
+                        height: 48px;
+                        position: absolute;
+                        left: -1px;
+                        bottom: 0px;
+                        background: url(../img/prefer.png) left top no-repeat;
+
+                        span {
+
+                            color: #f03b44 !important;
+                            font-weight: bold;
+                        }
+                    }
+
+                }
+
+                .discounts_img {
+                    height: 64px;
+                    width: 315px;
+                    position: relative;
+                    padding: 10px 42px 0px;
+
+                    .cur {
+                        border: red 1px solid;
+                    }
+
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        border: 1px solid #ddd;
+                        float: left;
+                    }
+
+                    span {
+                        text-align: center;
+                        font-size: 16px;
+
+                        color: #777;
+                        width: 15px;
+                        height: 56px;
+                        line-height: 56px;
+                        cursor: pointer;
+                    }
+
+                    span:hover {
+                        background: #f6f6f6;
+                    }
+
+                    .prev {
+                        position: absolute;
+                        left: 23px;
+                        top: 14px;
+                    }
+
+                    .next {
+                        position: absolute;
+                        right: 23px;
+                        top: 14px;
+                    }
+                }
+
+                .v7_packaging {
+                    color: #787878;
+                    padding: 20px;
+                    line-height: 20px;
+                }
+
+                .icon_img {
+                    padding: 0px 20px;
+
+                    // position: relative;
+                    span {
+                        float: left;
+                        font-size: 12px;
+                        line-height: 28px;
+                        width: 36px;
+                    }
+
+                    ul {
+                        float: left;
+
+                        li {
+                            float: left;
+                            font-size: 12px;
+                            padding-left: 17px;
+                            line-height: 16px;
+                            height: 16px;
+                            background-image: url(../img/icons_1_16.png);
+                            background-repeat: no-repeat;
+                            cursor: pointer;
+                            margin: 6px 6px 6px 0;
+                        }
+                    }
+
+                    a {
+                        font-size: 12px;
+                        color: #666;
+                        padding: 0px 10px;
+                        background: #ececec;
+                        border-radius: 50px;
+                        float: right;
+                        height: 20px;
+                        line-height: 20px;
+                        transition: all 0.6s;
+                    }
+
+                    a:hover {
+                        background: #ff5c4d;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .detail_right {
+                padding-left: 18px;
+                padding-right: 37px;
+                height: 657px;
+                width: 505px;
+
+                h2 {
+                    margin-top: 25px;
+                    font-size: 20px;
+                    font-weight: bold;
+                    line-height: 20px;
+                    vertical-align: middle;
+
+                    i {
+                        vertical-align: middle;
+                        width: 42px;
+                        height: 20px;
+                        display: inline-block;
+                        line-height: 20px;
+                        margin: -1px 5px auto 0px;
+                        background: url(../img/kdlphicon.png) -111px -252px no-repeat;
+                    }
+                }
+
+                .date {
+                    margin-top: 21px;
+                    color: #ff4040;
+                    font-size: 12px;
+                    line-height: 12px;
+                    margin-bottom: 18px;
+                }
+
+                .deteil_pice {
+                    font-size: 25px;
+                    line-height: 53px;
+                    height: 53px;
+                    color: #f75943;
+                    background: url(../img/pricebg.jpg) left top no-repeat #fef9f6d3;
+                    font-weight: bold;
+
+                    span {
+                        font-size: 14px;
+                        color: #555;
+                        line-height: 53px;
+                        margin-left: 10px;
+                    }
+
+                    i {
+                        font-size: 16px;
+
+                    }
+                }
+
+                .summary {
+                    color: #666666;
+                    font-size: 12px;
+
+                    p:nth-of-type(1) {
+                        margin-top: 22px;
+                    }
+
+                    p {
+                        margin-bottom: 14px;
+                    }
+
+                    span {
+                        color: #9b9b9b;
+                    }
+
+                    .guige {
+                        a {
+                            height: 25px;
+                            display: inline-block;
+                            // border: 1px solid #ff7e6f;
+                            line-height: 25px;
+                            text-align: center;
+                            position: relative;
+                            padding: 0px 10px;
+                            border: 1px solid #ccc;
+                            color: #555;
+                        }
+
+                        .cur {
+                            border: 1px solid #ff7e6f;
+                        }
+
+                    }
+
+
+                    b {
+                        background-image:url(../img/kdlphicon.png);
+                        background-repeat: no-repeat;
+                        background-position: -485px -254px;
+                        position: absolute;
+                        bottom: -1px;
+                        right: -1px;
+                        width: 15px;
+                        height: 15px;
+                    }
+
+                    .discounts {
+                        div {
+                            a {
+                                // border: 1px solid #ccc;
+                                display: inline-block;
+                                border: 1px solid #ff7e6f;
+                                line-height: 25px;
+                                text-align: center;
+                                height: 25px;
+                                padding: 0px 10px;
+                                position: relative;
+                                color: #555;
+
+                                b {
+                                    background-image: url(../img/kdlphicon.png);
+                                }
+                            }
+                        }
+                    }
+
+                    .outlet {
+                        margin-top: 38px;
+
+                        .as {
+                            width: 95px;
+                            line-height: 24px;
+                            padding-right: 10px;
+                            display: inline-block;
+                            position: relative;
+                            border: 1px #ccc solid;
+                            text-align: center;
+                            color: #555;
+
+                            // position: relative;
+                            i {
+                                width: 7px;
+                                height: 4px;
+                                background-position: -445px -48px;
+                                position: absolute;
+                                top: 11px;
+                                right: 8px;
+                                background: url(../img/kdlphicon.png) -445px -48px no-repeat;
+                            }
+
+                            .store {
+                                position: absolute;
+                                width: 426px;
+                                min-height: 90px;
+                                text-align: left;
+                                padding: 4px 5px 6px 4px;
+                                box-shadow: 0px 0px 5px #dddddd;
+                                border: 1px solid #ffffff;
+                                left: 0px;
+                                top: 25px;
+                                background: #FFF;
+                                cursor: default;
+                                font-family: '宋体';
+                                display: none;
+                                z-index: 2;
+
+                                ul {
+                                    margin: 2px 0px 0px 2px;
+                                    padding-bottom: 4px;
+
+                                    .cur {
+                                        background: #ff7e6f;
+                                        color: #fff;
+                                    }
+
+                                    li {
+                                        width: 82px;
+                                        height: 25px;
+                                        line-height: 25px;
+                                        text-align: center;
+                                        color: #666666;
+                                        background: #f7f7f7;
+                                        overflow: hidden;
+                                        margin-left: 2px;
+                                        margin-top: 2px;
+                                        cursor: pointer;
+
+                                        float: left;
+                                        clear: none;
+                                    }
+                                }
+                            }
+                        }
+
+                        .as:hover .store {
+                            display: block;
+                        }
+
+                        .as:hover i {
+                            background: url(../img/kdlphicon.png) -452px -48px no-repeat;
+
+                        }
+                    }
+
+                    .count {
+                        line-height: 40px;
+                        margin-top: 5px;
+
+                        span {
+                            float: left;
+                            line-height: 40px;
+                            height: 40px;
+                        }
+
+                        .count_num {
+                            line-height: 40px;
+
+                            .inp_num {
+                                text-align: center;
+                                width: 48px;
+                                height: 29px;
+                                // line-height:40px;
+                                margin-top: 4px;
+                                float: left;
+                                border: 1px solid #ccc;
+                            }
+
+                            .gos {
+                                margin-top: 4px;
+
+                                line-height: 40px;
+                                margin-left: 2px;
+                                float: left;
+
+                                .count_prev {
+                                    margin-bottom: 1px;
+                                    background: url(../img/kdlphicon.png) -249px -48px no-repeat;
+                                }
+
+                                .count_prev:hover {
+                                    background: url(../img/kdlphicon.png) -215px -48px no-repeat;
+
+                                }
+
+                                .count_next {
+                                    margin-top: 1px;
+                                    background: url(../img/kdlphicon.png) -249px -61px no-repeat;
+
+                                }
+
+                                .count_next:hover {
+                                    background: url(../img/kdlphicon.png) -215px -61px no-repeat;
+
+                                }
+
+                                a {
+                                    width: 16px;
+                                    height: 15px;
+                                    display: block;
+                                }
+
+
+                            }
+
+                            .goumai {
+                                height: 38px;
+                                line-height: 38px;
+                                width: 125px;
+                                border: 1px solid #e54144;
+                                background: #f5f5f5;
+                                color: #e54144;
+                                text-align: center;
+                                font-size: 16px;
+                                margin-left: 10px;
+                            }
+
+                            .goumai:hover {
+                                background: #ccc;
+                            }
+
+                            .sub {
+                                width: 150px;
+                                height: 40px;
+                                background-color: #ff5c4d;
+                                color: #fff;
+                                font-size: 16px;
+                                line-height: 40px;
+                                text-align: center;
+                                margin-left: 17px;
+                                border-radius: 5px;
+                                vertical-align: middle;
+
+                                em {
+                                    vertical-align: middle;
+
+                                    display: inline-block;
+                                    width: 24px;
+                                    height: 24px;
+                                    margin-right: 5px;
+                                    background-image: url(https://imgcdn.baiji.com.cn/bj_img/kdlphicon.png);
+                                    background-repeat: no-repeat;
+                                    // margin-top: 8px;
+                                    background-position: -231px -11px;
+                                }
+                            }
+
+                            .sub:hover {
+                                background: #f03b44;
+                            }
+                        }
+
+
+
+                    }
+
+                    .chu {
+                        margin-left: 68px;
+                        margin-top: 13px;
+                        color: #666;
+                        font-size: 12px;
+
+                        span {
+                            color: #ff5c4d;
+                        }
+                    }
+
+                    .fuwu {
+                        margin-left: 68px;
+                        margin-top: 19px;
+
+                        a {
+                            line-height: 32px;
+                            float: left;
+                            margin-right: 20px;
+                            vertical-align: middle;
+
+                            i {
+                                vertical-align: middle;
+                                width: 17px;
+                                height: 17px;
+                                display: inline-block;
+                                margin: -2px 3px 0px 0px;
+                                background: url(../img/kdlphicon.png) -332px -49px no-repeat;
+                            }
+                        }
+
+                        a:hover {
+                            color: red;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    .dian {
+        background: #fff;
+        width: 209px;
+        min-height: 200px;
+        padding: 0px 20px;
+        border-left: 1px solid #f2f2f2;
+        // float: right;
+        // margin-top: 20px;
+
+        h2 {
+            font-size: 12px;
+            color: #101010;
+            line-height: 31px;
+            border-bottom: 1px solid #e6e6e6;
+            margin-bottom: 15px;
+        }
+
+        .shop_dianlist {
+            ul {
+                li {
+                    width: 54px;
+                    height: 23px;
+                    line-height: 23px;
+                    margin-bottom: 4px;
+                    background: #fff;
+                    padding: 0px 7.5px;
+                    color: #909090;
+                    float: left;
+                    text-align: center;
+                    font-size: 12px;
+                }
+
+                .cur {
+                    background: #7ebcff;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                }
+            }
+
+            .shop_dianbox {
+                width: 100%;
+                // height: 111px;
+                margin-top: 10px;
+                position: relative;
+
+
+                .page_dian {
+                    display: none;
+
+                    .shop_dianimg {
+                        width: 100%;
+                        height: 111px;
+
+                        img {
+                            height: 111px;
+                        }
+
+                        .dianimg_next {
+                            right: 0;
+                            background-position: right;
+                        }
+
+                        .dianimg_prev:hover,
+                        .dianimg_next:hover {
+                            opacity: 0.7;
+                        }
+
+                        a {
+                            transition: all 0.6s;
+                            display: block;
+                            width: 25px;
+                            height: 56px;
+                            background: url(https://imgcdn.baiji.com.cn/bj_img/btn.png) no-repeat;
+                            background-size: 50px;
+                            position: absolute;
+                            top: 30px;
+                            opacity: 0.2;
+                        }
+                    }
+
+                    .shop_tel {
+                        min-height: 60px;
+
+                        font-size: 12px;
+                        text-align: left;
+                        margin-top: 10px;
+                        color: #4b4b4b;
+
+                        p:nth-of-type(1) {
+                            line-height: 18px;
+                            vertical-align: middle;
+
+                            span {
+                                vertical-align: middle;
+
+                                width: 25px;
+                                height: 18px;
+                                display: inline-block;
+                                background-image: url(../img/kdlphicon.png);
+                                background-repeat: no-repeat;
+                                background-position: -480px -9px;
+                            }
+                        }
+
+                        p:nth-of-type(3) {
+                            line-height: 18px;
+                            vertical-align: middle;
+
+                            b {
+                                vertical-align: middle;
+                                width: 25px;
+                                height: 18px;
+                                display: inline-block;
+                                background-image: url(../img/kdlphicon.png);
+                                background-repeat: no-repeat;
+                                background-position: -480px -35px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

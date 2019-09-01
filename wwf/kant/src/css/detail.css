@@ -1,0 +1,577 @@
+@charset "UTF-8";
+.shop_tan {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  z-index: 9999;
+}
+.shop_tan .pop_up {
+  padding: 25px 0 20px 0;
+  border: 1px solid #b1b1b1;
+  background: #FFF;
+}
+.shop_tan .pop_up .pop_close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+  background: url(../img/kdlphicon.png) -255px -86px no-repeat;
+  cursor: pointer;
+}
+.shop_tan .pop_up .pop_jia {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+  text-align: center;
+  vertical-align: middle;
+}
+.shop_tan .pop_up .pop_jia i {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  margin-right: 14px;
+  background: url(../img/kdlphicon.png) -273px -148px no-repeat;
+  vertical-align: middle;
+}
+.shop_tan .pop_up .pop_next {
+  width: 385px;
+  margin: 0 auto;
+  padding: 18px 0 25px 0;
+  text-align: center;
+}
+.shop_tan .pop_up .pop_next a {
+  border: 1px solid #ddd;
+  background: #fcfcfc;
+  color: #666;
+  display: inline-block;
+  width: 123px;
+  height: 41px;
+  margin: 0 5px;
+  line-height: 41px;
+  text-align: center;
+  font-size: 14px;
+}
+.shop_tan .pop_up .pop_next .as_cear {
+  border: 1px solid #4889f6;
+  background: #4889f6;
+  color: #FFF;
+}
+
+.nav {
+  height: 40px;
+  border-bottom: 2px solid #3284dd;
+}
+.nav .kant_nav {
+  height: 100%;
+}
+.nav .kant_nav h2 .item_list {
+  display: none;
+}
+.nav .kant_nav h2:hover .item_list {
+  display: block;
+}
+.nav .kant_nav .secondnav {
+  display: none;
+}
+
+.deteil {
+  background: #f5f5f5;
+}
+.deteil .v7_rxcrumb {
+  text-align: left;
+  height: 35px;
+  line-height: 35px;
+  color: #888888;
+  background: #fff;
+  text-indent: 10px;
+}
+.deteil .bos {
+  background: #fff;
+}
+.deteil .bos .detail_box {
+  height: 657px;
+  background: #fff;
+}
+.deteil .bos .detail_box .detail_left {
+  width: 398px;
+}
+.deteil .bos .detail_box .detail_left .da_img {
+  position: relative;
+  height: 398px;
+  border: 1px solid #eeeeee;
+}
+.deteil .bos .detail_box .detail_left .da_img img {
+  width: 398px;
+  height: 398px;
+}
+.deteil .bos .detail_box .detail_left .da_img p {
+  line-height: 48px;
+  padding-left: 75px;
+  width: 425px;
+  height: 48px;
+  position: absolute;
+  left: -1px;
+  bottom: 0px;
+  background: url(../img/prefer.png) left top no-repeat;
+}
+.deteil .bos .detail_box .detail_left .da_img p span {
+  color: #f03b44 !important;
+  font-weight: bold;
+}
+.deteil .bos .detail_box .detail_left .discounts_img {
+  height: 64px;
+  width: 315px;
+  position: relative;
+  padding: 10px 42px 0px;
+}
+.deteil .bos .detail_box .detail_left .discounts_img .cur {
+  border: red 1px solid;
+}
+.deteil .bos .detail_box .detail_left .discounts_img img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ddd;
+  float: left;
+}
+.deteil .bos .detail_box .detail_left .discounts_img span {
+  text-align: center;
+  font-size: 16px;
+  color: #777;
+  width: 15px;
+  height: 56px;
+  line-height: 56px;
+  cursor: pointer;
+}
+.deteil .bos .detail_box .detail_left .discounts_img span:hover {
+  background: #f6f6f6;
+}
+.deteil .bos .detail_box .detail_left .discounts_img .prev {
+  position: absolute;
+  left: 23px;
+  top: 14px;
+}
+.deteil .bos .detail_box .detail_left .discounts_img .next {
+  position: absolute;
+  right: 23px;
+  top: 14px;
+}
+.deteil .bos .detail_box .detail_left .v7_packaging {
+  color: #787878;
+  padding: 20px;
+  line-height: 20px;
+}
+.deteil .bos .detail_box .detail_left .icon_img {
+  padding: 0px 20px;
+}
+.deteil .bos .detail_box .detail_left .icon_img span {
+  float: left;
+  font-size: 12px;
+  line-height: 28px;
+  width: 36px;
+}
+.deteil .bos .detail_box .detail_left .icon_img ul {
+  float: left;
+}
+.deteil .bos .detail_box .detail_left .icon_img ul li {
+  float: left;
+  font-size: 12px;
+  padding-left: 17px;
+  line-height: 16px;
+  height: 16px;
+  background-image: url(../img/icons_1_16.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin: 6px 6px 6px 0;
+}
+.deteil .bos .detail_box .detail_left .icon_img a {
+  font-size: 12px;
+  color: #666;
+  padding: 0px 10px;
+  background: #ececec;
+  border-radius: 50px;
+  float: right;
+  height: 20px;
+  line-height: 20px;
+  transition: all 0.6s;
+}
+.deteil .bos .detail_box .detail_left .icon_img a:hover {
+  background: #ff5c4d;
+  color: #fff;
+}
+.deteil .bos .detail_box .detail_right {
+  padding-left: 18px;
+  padding-right: 37px;
+  height: 657px;
+  width: 505px;
+}
+.deteil .bos .detail_box .detail_right h2 {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  vertical-align: middle;
+}
+.deteil .bos .detail_box .detail_right h2 i {
+  vertical-align: middle;
+  width: 42px;
+  height: 20px;
+  display: inline-block;
+  line-height: 20px;
+  margin: -1px 5px auto 0px;
+  background: url(../img/kdlphicon.png) -111px -252px no-repeat;
+}
+.deteil .bos .detail_box .detail_right .date {
+  margin-top: 21px;
+  color: #ff4040;
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 18px;
+}
+.deteil .bos .detail_box .detail_right .deteil_pice {
+  font-size: 25px;
+  line-height: 53px;
+  height: 53px;
+  color: #f75943;
+  background: url(../img/pricebg.jpg) left top no-repeat #fef9f6d3;
+  font-weight: bold;
+}
+.deteil .bos .detail_box .detail_right .deteil_pice span {
+  font-size: 14px;
+  color: #555;
+  line-height: 53px;
+  margin-left: 10px;
+}
+.deteil .bos .detail_box .detail_right .deteil_pice i {
+  font-size: 16px;
+}
+.deteil .bos .detail_box .detail_right .summary {
+  color: #666666;
+  font-size: 12px;
+}
+.deteil .bos .detail_box .detail_right .summary p:nth-of-type(1) {
+  margin-top: 22px;
+}
+.deteil .bos .detail_box .detail_right .summary p {
+  margin-bottom: 14px;
+}
+.deteil .bos .detail_box .detail_right .summary span {
+  color: #9b9b9b;
+}
+.deteil .bos .detail_box .detail_right .summary .guige a {
+  height: 25px;
+  display: inline-block;
+  line-height: 25px;
+  text-align: center;
+  position: relative;
+  padding: 0px 10px;
+  border: 1px solid #ccc;
+  color: #555;
+}
+.deteil .bos .detail_box .detail_right .summary .guige .cur {
+  border: 1px solid #ff7e6f;
+}
+.deteil .bos .detail_box .detail_right .summary b {
+  background-image: url(../img/kdlphicon.png);
+  background-repeat: no-repeat;
+  background-position: -485px -254px;
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  width: 15px;
+  height: 15px;
+}
+.deteil .bos .detail_box .detail_right .summary .discounts div a {
+  display: inline-block;
+  border: 1px solid #ff7e6f;
+  line-height: 25px;
+  text-align: center;
+  height: 25px;
+  padding: 0px 10px;
+  position: relative;
+  color: #555;
+}
+.deteil .bos .detail_box .detail_right .summary .discounts div a b {
+  background-image: url(../img/kdlphicon.png);
+}
+.deteil .bos .detail_box .detail_right .summary .outlet {
+  margin-top: 38px;
+}
+.deteil .bos .detail_box .detail_right .summary .outlet .as {
+  width: 95px;
+  line-height: 24px;
+  padding-right: 10px;
+  display: inline-block;
+  position: relative;
+  border: 1px #ccc solid;
+  text-align: center;
+  color: #555;
+}
+.deteil .bos .detail_box .detail_right .summary .outlet .as i {
+  width: 7px;
+  height: 4px;
+  background-position: -445px -48px;
+  position: absolute;
+  top: 11px;
+  right: 8px;
+  background: url(../img/kdlphicon.png) -445px -48px no-repeat;
+}
+.deteil .bos .detail_box .detail_right .summary .outlet .as .store {
+  position: absolute;
+  width: 426px;
+  min-height: 90px;
+  text-align: left;
+  padding: 4px 5px 6px 4px;
+  box-shadow: 0px 0px 5px #dddddd;
+  border: 1px solid #ffffff;
+  left: 0px;
+  top: 25px;
+  background: #FFF;
+  cursor: default;
+  font-family: '宋体';
+  display: none;
+  z-index: 2;
+}
+.deteil .bos .detail_box .detail_right .summary .outlet .as .store ul {
+  margin: 2px 0px 0px 2px;
+  padding-bottom: 4px;
+}
+.deteil .bos .detail_box .detail_right .summary .outlet .as .store ul .cur {
+  background: #ff7e6f;
+  color: #fff;
+}
+.deteil .bos .detail_box .detail_right .summary .outlet .as .store ul li {
+  width: 82px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  color: #666666;
+  background: #f7f7f7;
+  overflow: hidden;
+  margin-left: 2px;
+  margin-top: 2px;
+  cursor: pointer;
+  float: left;
+  clear: none;
+}
+.deteil .bos .detail_box .detail_right .summary .outlet .as:hover .store {
+  display: block;
+}
+.deteil .bos .detail_box .detail_right .summary .outlet .as:hover i {
+  background: url(../img/kdlphicon.png) -452px -48px no-repeat;
+}
+.deteil .bos .detail_box .detail_right .summary .count {
+  line-height: 40px;
+  margin-top: 5px;
+}
+.deteil .bos .detail_box .detail_right .summary .count span {
+  float: left;
+  line-height: 40px;
+  height: 40px;
+}
+.deteil .bos .detail_box .detail_right .summary .count .count_num {
+  line-height: 40px;
+}
+.deteil .bos .detail_box .detail_right .summary .count .count_num .inp_num {
+  text-align: center;
+  width: 48px;
+  height: 29px;
+  margin-top: 4px;
+  float: left;
+  border: 1px solid #ccc;
+}
+.deteil .bos .detail_box .detail_right .summary .count .count_num .gos {
+  margin-top: 4px;
+  line-height: 40px;
+  margin-left: 2px;
+  float: left;
+}
+.deteil .bos .detail_box .detail_right .summary .count .count_num .gos .count_prev {
+  margin-bottom: 1px;
+  background: url(../img/kdlphicon.png) -249px -48px no-repeat;
+}
+.deteil .bos .detail_box .detail_right .summary .count .count_num .gos .count_prev:hover {
+  background: url(../img/kdlphicon.png) -215px -48px no-repeat;
+}
+.deteil .bos .detail_box .detail_right .summary .count .count_num .gos .count_next {
+  margin-top: 1px;
+  background: url(../img/kdlphicon.png) -249px -61px no-repeat;
+}
+.deteil .bos .detail_box .detail_right .summary .count .count_num .gos .count_next:hover {
+  background: url(../img/kdlphicon.png) -215px -61px no-repeat;
+}
+.deteil .bos .detail_box .detail_right .summary .count .count_num .gos a {
+  width: 16px;
+  height: 15px;
+  display: block;
+}
+.deteil .bos .detail_box .detail_right .summary .count .count_num .goumai {
+  height: 38px;
+  line-height: 38px;
+  width: 125px;
+  border: 1px solid #e54144;
+  background: #f5f5f5;
+  color: #e54144;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.deteil .bos .detail_box .detail_right .summary .count .count_num .goumai:hover {
+  background: #ccc;
+}
+.deteil .bos .detail_box .detail_right .summary .count .count_num .sub {
+  width: 150px;
+  height: 40px;
+  background-color: #ff5c4d;
+  color: #fff;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 17px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+.deteil .bos .detail_box .detail_right .summary .count .count_num .sub em {
+  vertical-align: middle;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  background-image: url(https://imgcdn.baiji.com.cn/bj_img/kdlphicon.png);
+  background-repeat: no-repeat;
+  background-position: -231px -11px;
+}
+.deteil .bos .detail_box .detail_right .summary .count .count_num .sub:hover {
+  background: #f03b44;
+}
+.deteil .bos .detail_box .detail_right .summary .chu {
+  margin-left: 68px;
+  margin-top: 13px;
+  color: #666;
+  font-size: 12px;
+}
+.deteil .bos .detail_box .detail_right .summary .chu span {
+  color: #ff5c4d;
+}
+.deteil .bos .detail_box .detail_right .summary .fuwu {
+  margin-left: 68px;
+  margin-top: 19px;
+}
+.deteil .bos .detail_box .detail_right .summary .fuwu a {
+  line-height: 32px;
+  float: left;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.deteil .bos .detail_box .detail_right .summary .fuwu a i {
+  vertical-align: middle;
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  margin: -2px 3px 0px 0px;
+  background: url(../img/kdlphicon.png) -332px -49px no-repeat;
+}
+.deteil .bos .detail_box .detail_right .summary .fuwu a:hover {
+  color: red;
+}
+.deteil .dian {
+  background: #fff;
+  width: 209px;
+  min-height: 200px;
+  padding: 0px 20px;
+  border-left: 1px solid #f2f2f2;
+}
+.deteil .dian h2 {
+  font-size: 12px;
+  color: #101010;
+  line-height: 31px;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 15px;
+}
+.deteil .dian .shop_dianlist ul li {
+  width: 54px;
+  height: 23px;
+  line-height: 23px;
+  margin-bottom: 4px;
+  background: #fff;
+  padding: 0px 7.5px;
+  color: #909090;
+  float: left;
+  text-align: center;
+  font-size: 12px;
+}
+.deteil .dian .shop_dianlist ul .cur {
+  background: #7ebcff;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.deteil .dian .shop_dianlist .shop_dianbox {
+  width: 100%;
+  margin-top: 10px;
+  position: relative;
+}
+.deteil .dian .shop_dianlist .shop_dianbox .page_dian {
+  display: none;
+}
+.deteil .dian .shop_dianlist .shop_dianbox .page_dian .shop_dianimg {
+  width: 100%;
+  height: 111px;
+}
+.deteil .dian .shop_dianlist .shop_dianbox .page_dian .shop_dianimg img {
+  height: 111px;
+}
+.deteil .dian .shop_dianlist .shop_dianbox .page_dian .shop_dianimg .dianimg_next {
+  right: 0;
+  background-position: right;
+}
+.deteil .dian .shop_dianlist .shop_dianbox .page_dian .shop_dianimg .dianimg_prev:hover,
+.deteil .dian .shop_dianlist .shop_dianbox .page_dian .shop_dianimg .dianimg_next:hover {
+  opacity: 0.7;
+}
+.deteil .dian .shop_dianlist .shop_dianbox .page_dian .shop_dianimg a {
+  transition: all 0.6s;
+  display: block;
+  width: 25px;
+  height: 56px;
+  background: url(https://imgcdn.baiji.com.cn/bj_img/btn.png) no-repeat;
+  background-size: 50px;
+  position: absolute;
+  top: 30px;
+  opacity: 0.2;
+}
+.deteil .dian .shop_dianlist .shop_dianbox .page_dian .shop_tel {
+  min-height: 60px;
+  font-size: 12px;
+  text-align: left;
+  margin-top: 10px;
+  color: #4b4b4b;
+}
+.deteil .dian .shop_dianlist .shop_dianbox .page_dian .shop_tel p:nth-of-type(1) {
+  line-height: 18px;
+  vertical-align: middle;
+}
+.deteil .dian .shop_dianlist .shop_dianbox .page_dian .shop_tel p:nth-of-type(1) span {
+  vertical-align: middle;
+  width: 25px;
+  height: 18px;
+  display: inline-block;
+  background-image: url(../img/kdlphicon.png);
+  background-repeat: no-repeat;
+  background-position: -480px -9px;
+}
+.deteil .dian .shop_dianlist .shop_dianbox .page_dian .shop_tel p:nth-of-type(3) {
+  line-height: 18px;
+  vertical-align: middle;
+}
+.deteil .dian .shop_dianlist .shop_dianbox .page_dian .shop_tel p:nth-of-type(3) b {
+  vertical-align: middle;
+  width: 25px;
+  height: 18px;
+  display: inline-block;
+  background-image: url(../img/kdlphicon.png);
+  background-repeat: no-repeat;
+  background-position: -480px -35px;
+}
+
+/*# sourceMappingURL=detail.css.map */

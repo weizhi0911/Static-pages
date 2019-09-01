@@ -1,0 +1,1168 @@
+.commonWidth {
+    width: 1210px;
+    height: 100%;
+    margin: auto;
+}
+
+/* 头部 */
+.header {
+    height: 100px;
+    box-shadow: 0px 2px 5px #ccc;
+}
+
+.head_riglogo {
+    background: url(../img/head_riglogo.png) right top no-repeat;
+    width: 360px;
+    height: 90px;
+}
+/* 用户信息头部 */
+.usersname_head {
+    height: 35px;
+    border-bottom: 1px solid #f2f2f2;
+    background: #fbfbfb;
+}
+
+.usersname_ip {
+    height: 100%;
+    width: 193px;
+    font-size: 12px;
+    line-height: 35px;
+}
+
+.usersname_ip span:nth-child(1) {
+    transform: translateY(2px);
+    display: inline-block;
+    width: 12px;
+    line-height: 35px;
+    height: 15px;
+    background: url(../img/newicon2018.png) -115px -2px no-repeat;
+}
+
+.usersname_ip i {
+    transform: translateY(2px);
+    line-height: 36px;
+    width: 1px;
+    height: 12px;
+    background: #ccc;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.trade {
+    float: right;
+}
+
+.trade a {
+    color: #666666;
+    line-height: 35px;
+    transition: all 0.5s;
+}
+
+.trade a:hover {
+    color: #ff5c4d;
+
+}
+
+/* 用户状态栏 */
+.users_state {
+    padding-top: 6px;
+}
+
+.users_state a {
+    line-height: 18px;
+    height: 18px;
+    display: inline-block;
+    font-size: 12px;
+    color: #666666;
+    margin-right: 25px;
+    vertical-align: middle;
+
+}
+
+.users_shopimg {
+    vertical-align: middle;
+    display: inline-block;
+    width: 19px;
+    height: 18px;
+    background: url(../img/newicon2018.png) -204px -1px no-repeat;
+}
+
+.usersname_cart {
+    transition: all 0.5s;
+}
+
+.usersname_cart:hover {
+    color: #ff5c4d;
+}
+
+.serve>li {
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    float: left;
+    color: #555555;
+    position: relative;
+}
+
+.users_triangle {
+    margin-bottom: 4px;
+    width: 5px;
+    height: 3px;
+    display: inline-block;
+    background: url(../img/newicon2018.png) -154px -4px no-repeat;
+}
+
+.users_triangle2 {
+    margin-bottom: 4px;
+    width: 5px;
+    height: 3px;
+    display: inline-block;
+    background: url(../img/newicon2018.png) -154px -13px no-repeat;
+}
+
+.users_logo1,
+.users_logo2 {
+
+    display: inline-block;
+    background-image: url(../img/newicon2018.png);
+    background-repeat: no-repeat;
+}
+
+.users_logo1 {
+    width: 11px;
+    height: 10px;
+    background-position: -183px -4px;
+
+}
+
+.users_logo2 {
+    width: 8px;
+    height: 11px;
+    background-position: -234px -4px;
+}
+
+.users_list1 {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid #fbfbfb;
+    border-left: 1px solid #fbfbfb;
+}
+
+.users_list2 {
+    box-sizing: border-box;
+    display: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #fff;
+    border-right: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+
+}
+
+.users_list2 a,
+.users_list2 h3 {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+
+.users_list2 a {
+    line-height: 25px;
+    display: block;
+    color: #666;
+}
+
+.users_list2 a:hover {
+    color: #4d92d7;
+}
+
+.kdlmcode {
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    position: absolute;
+    left: 0px;
+    top: 32px;
+}
+
+.kdlmcode img {
+    width: 100%;
+}
+
+/* 主页头部logo */
+.kant_header {
+    height: 120px;
+
+}
+
+.kant_head {
+    height: 100%;
+
+}
+
+h1 {
+    width: 330px;
+    text-indent: -9999px;
+    height: 100%;
+    background: url(../img/sphlogo.jpg) left top no-repeat;
+}
+
+.kant_headinp {
+    width: 594px;
+    padding-top: 31px;
+
+}
+
+.kant_inp input {
+    border: none;
+    height: 36px;
+    float: left;
+}
+
+.kant_inp {
+    border: 2px solid #4496ee;
+    height: 36px;
+}
+
+.kant_inpone {
+    width: 468px;
+    padding-left: 11px;
+    padding-right: 11px;
+    font-size: 16px;
+}
+
+.kant_inptwo {
+    width: 100px;
+    background: #4496ee;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.kan_hot {
+    margin-top: 2px;
+}
+
+.kan_hot dd,
+.kan_hot dt {
+    float: left;
+    color: #666;
+    margin-right: 15px;
+    font-size: 11px;
+    transition: all 0.5s;
+}
+
+.kan_hot dd {
+    cursor: pointer;
+}
+
+.kan_hot dd:hover {
+    color: #4496ee;
+}
+
+.sph_riglogo {
+    width: 245px;
+    float: right;
+    text-align: right;
+}
+
+.sph_riglogo img {
+    margin: 30px 10px auto auto;
+}
+/* 导航 */
+/* 导航部分 kant_nav*/
+.kant_navs {
+    height: 40px;
+}
+
+.kant_nav {
+    height: 40px;
+}
+
+.kant_nav h2 {
+    width: 190px;
+    line-height: 40px;
+    color: #fff;
+    background: #3184dd;
+    font-size: 15px;
+    float: left;
+    text-align: center;
+    margin-right: 25px;
+    position: relative;
+}
+
+#allmenu {
+
+    position: absolute;
+    left: 0px;
+    top: 42px;
+    z-index: 999;
+    background: #3184dd;
+    width: 100%;
+}
+
+.item_lef {
+    z-index: 999;
+    position: absolute;
+    left: 190px;
+    height: 449px;
+    overflow: hidden;
+    border-bottom: 1px solid #3184dd;
+    display: none;
+    background: #fff;
+}
+
+
+
+.item_list .section>li {
+    line-height: 39px;
+    border-bottom: 1px solid #3c92e2;
+    position: relative;
+}
+
+.item_list .section>li:hover {
+    background-color: #fff;
+    background-position: -108px -85px;
+}
+
+.item_list .section>li:hover s {
+    background-position: -108px -85px;
+}
+
+.item_list .section>li:hover .col {
+    color: #3c92e2;
+}
+
+.item_list .section>li:hover .item_lef {
+    display: block;
+}
+
+.sph_moresec_li {
+    padding: 20px 25px;
+    margin-top: 5px;
+}
+
+.sph_nav_sec .diseases dl dd.ttit {
+    padding-right: 15px;
+    width: 80px;
+}
+
+.sph_moresec_li ul li {
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 20px;
+    background: #e7f2ff;
+    color: #377bee;
+    float: left;
+    cursor: pointer;
+    margin: 0px 10px 10px 0px;
+    font-size: 15px;
+}
+
+.sph_moresec_li ul,
+.sph_moresec_li ul li {
+    display: block;
+}
+
+.sph_moresec_li ul li a {
+    color: #377bee;
+}
+
+.diseases dl dd.ttit a {
+    color: #ff5c4d;
+    font-size: 12px;
+    padding-right: 5px;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.section s {
+    background-image: url(../img/newicon2018.png);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 24px;
+    position: absolute;
+    left: 5px;
+    top: 8px;
+}
+
+.section h3>a {
+    font-size: 15px;
+    color: #fff;
+}
+
+.zlk {
+    background-position: -108px -28px;
+}
+
+.gbk {
+    background-position: -213px -28px;
+}
+
+.pfk {
+    background-position: -250px -28px;
+}
+
+.sjk {
+    background-position: -142px -28px
+}
+
+.xxg {
+    background-position: -349px -28px;
+
+}
+
+.mnk {
+    background-position: -381px -28px;
+}
+
+.jsk {
+    background-position: -108px -28px;
+}
+
+.tnb {
+    background-position: -410px -28px;
+}
+
+.fsk {
+    background-position: -282px -28px;
+}
+
+.fek {
+    background-position: -315px -28px;
+}
+
+.ick {
+    background-position: -435px -28px;
+}
+
+/* .section li:hover {
+    color: #377bee;
+} */
+
+.jqlitabsec {
+    height: 35px;
+}
+
+.diseases {
+    width: 980px;
+    margin: 0px 20px;
+    *margin-left: 5px;
+    padding: 8px 0px 12px 0px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.diseases dl:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.diseases dd {
+    float: left;
+}
+
+
+
+.diseases dl dd.ttit a {
+    padding-right: 0px;
+}
+
+.diseases dl dd.ttit a {
+    color: #ff5c4d;
+    font-size: 12px;
+    padding-right: 5px;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.diseases dl dd.ttit {
+    width: 90px;
+    margin-top: 6px;
+    line-height: 14px;
+    padding-right: 5px;
+    color: #ff5c4d;
+    text-align: right;
+}
+
+.item_lef .diseases dl dd.ttit {
+    padding-right: 15px;
+    width: 80px;
+}
+
+.diseases dl dd.tcon a {
+    height: 14px;
+    float: left;
+    line-height: 14px;
+    padding: 0px 8px;
+    font-size: 12px;
+    color: #666666;
+    display: inline-block;
+    border-left: 1px solid #cccccc;
+    margin-top: 8px;
+}
+
+.diseases dl dd.tcon a:hover {
+    color: #ff5c4d;
+
+}
+
+.diseases dl dd.tcon {
+    width: 884px;
+    /* color: #cccccc; */
+    color: #666666;
+    line-height: 20px;
+}
+
+.sph_nav_sec {
+    display: none;
+}
+
+.form_nav li {
+    line-height: 40px;
+    text-align: center;
+    padding: 0px 25px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.form_nav li:hover>a {
+    color: #3284dd;
+}
+
+.nav_triangle1,
+.nav_triangle2 {
+    width: 10px;
+    height: 5px;
+    background-image: url(../img/newicon2018.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 19px;
+}
+
+.nav_triangle1 {
+    background-position: -136px -3px;
+}
+
+.nav_triangle2 {
+    display: none;
+    background-position: -136px -14px;
+}
+
+.secondnav {
+    width: 102px;
+    background: #3284dd;
+    position: absolute;
+    left: 10px;
+    /* display: none; */
+    top: 40px;
+    z-index: 100001;
+}
+
+.secondnav>a {
+    width: 102px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    float: left;
+}
+
+.mainrig {
+    width: 350px;
+    height: 40px;
+    float: right;
+    position: relative;
+}
+
+.mainrig .phone {
+    width: 200px;
+    height: 45px;
+    margin-top: -5px;
+    float: right;
+    text-align: center;
+    background: url(../img/sph-400all.png) 20px 2px no-repeat;
+}
+
+.mainrig .phone p {
+    width: 145px;
+    height: 26px;
+    line-height: 30px;
+    font-size: 23.5px;
+    text-align: left;
+    display: block;
+    margin: 16px auto auto 38px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2f88dc;
+    letter-spacing: -0.5px;
+}
+
+.mainrig .consult {
+    width: 105px;
+    height: 48px;
+    background-image: url(../img/newicon2018.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    float: right;
+    margin: -9px 4px auto auto;
+    cursor: pointer;
+}
+
+.mainrig .consult a {
+    width: 105px;
+    height: 48px;
+    display: block;
+    cursor: pointer;
+}
+
+/* 顶部 */
+.after_sale {
+    background: #377bee;
+    height: 240px;
+}
+
+.guide_uls {}
+
+.guide h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.guide_uls li {
+    height: 22px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.guide_uls li a {
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.guide_uls li:hover a {
+    border-bottom: 1px #fff solid;
+
+}
+
+.guide_item {
+    color: #fff;
+    width: 100px;
+    float: left;
+    margin-left: 65px;
+    padding: 35px 0px;
+    font-size: 12px;
+}
+
+.guide_box .guide_item:nth-child(1) {
+    margin-left: 0px;
+}
+
+.sph_longad {
+    width: 1210px;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.mart20 {
+    margin-top: 20px;
+}
+
+.sph_shortad {
+    width: 392px;
+    height: 200px;
+    float: left;
+    margin-left: 17px;
+}
+
+.blogs_top {
+    border-bottom: 2px solid #65a0e8;
+    height: 65px;
+    line-height: 65px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.blogs .blogs_top h2 {
+    font-size: 24px;
+    color: #111010;
+    display: block;
+    float: left;
+    font-weight: 400;
+
+}
+
+.blogs_namele img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+    overflow: hidden;
+    margin-top: 5px;
+
+}
+
+.blogs_img {
+    width: 232px;
+}
+
+.blogs_img a {
+    width: 66px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    float: left;
+    background: #377bee;
+    color: #fff;
+    border-radius: 2px;
+    margin-top: 8px;
+}
+
+.blogs_namele {
+    padding: 0px 20px;
+    width: 320px;
+    height: 176px;
+    padding-top: 20px;
+}
+
+
+
+.blogs_img h3 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+
+.blogs_img h3 span {
+    padding-left: 10px;
+    color: #888888;
+    font-size: 12px;
+}
+
+.disc {
+    float: left;
+    height: 80px;
+    color: #888888;
+    line-height: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding: 0px 20px;
+    font-size: 12px;
+}
+
+.disc strong {
+    color: #000;
+    font-weight: 400;
+}
+
+.change {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    border-top: 1px dotted #e4e4e4;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.change a {
+    width: 90px;
+    display: block;
+    padding-right: 20px;
+    position: relative;
+    margin: auto;
+}
+
+.change a s {
+    width: 18px;
+    height: 16px;
+    position: absolute;
+    right: 0px;
+    top: 14px;
+    background-position: -469px -33px;
+    background-image: url(../img/newicon2018.png);
+    background-repeat: no-repeat;
+}
+
+.blogs_box {
+    border: 1px dotted #e4e4e4;
+    width: 360px;
+    background: #fff;
+}
+
+.blogs_rg>.blogs_list>h3 {
+    width: 80px;
+    height: 34px;
+    line-height: 34px;
+
+    color: #000;
+    font-size: 18px;
+    float: left;
+}
+
+.blogs_rg {
+    width: 785px;
+    min-height: 50px;
+    float: left;
+    padding: 20px 30px 6px;
+    ;
+    background: #fff;
+
+
+}
+
+.blogs_list {
+    height: 33px;
+    line-height: 32px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.jqlitab {
+    float: left;
+}
+
+.jqlitab li {
+    padding: 0px 16px;
+    background: #fff;
+    border-width: 1px 1px 0px 1px;
+    border-color: #fff;
+    border-style: solid;
+    float: left;
+    position: relative;
+    font-size: 14px;
+    color: #333333;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.conpart .lefimg {
+    width: 120px;
+    height: 80px;
+    float: left;
+    overflow: hidden;
+}
+
+.conpart .rigtxt h3 {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    font-weight: 400;
+}
+
+.conpart .rigtxt h3 a {
+    color: #377bee;
+    font-size: 14px;
+}
+
+.seccon .conpart .rigtxt p {
+    height: 40px;
+    margin-top: 6px;
+    overflow: hidden;
+    line-height: 20px;
+}
+
+.rigtxt span {
+    color: #999999;
+}
+
+.conpart {
+    width: 375px;
+    height: 80px;
+}
+
+.conpart .rigtxt p {
+    height: 40px;
+    margin-top: 6px;
+    overflow: hidden;
+    line-height: 20px;
+}
+
+.conpart .rigtxt {
+    width: 240px;
+    float: right;
+}
+
+.conlist {
+    padding: 10px 0px;
+    border-top: 1px dotted #e4e4e4;
+    float: left;
+}
+
+.conlist ul {
+    margin-left: -35px;
+}
+
+.conlist ul li {
+    width: 375px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    padding-left: 35px;
+    font-size: 14px;
+}
+
+.conlist ul li a {
+    color: #333;
+}
+
+.seccon {
+    margin: 26px 0px;
+}
+
+.conpart .rigtxt p {
+    height: 40px;
+    margin-top: 6px;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.conlist ul li a.more {
+    color: #377bee;
+    padding-right: 10px;
+    position: relative;
+    font-size: 14px;
+    font-family: 'Microsoft yahei';
+}
+
+.conlist ul li a.more i {
+    width: 4px;
+    height: 7px;
+    position: absolute;
+    right: 2px;
+    top: 7px;
+    background-position: -169px -6px;
+    background-image: url(../img/newicon2018.png);
+    background-repeat: no-repeat;
+
+}
+/* footer底部 */
+.footer {
+    height: 171px;
+    text-align: center;
+}
+
+.foot p {
+    color: #555555;
+    padding-top: 33px;
+    line-height: 12px;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+
+
+.foot_menu li {
+    padding: 0 18px;
+    display: inline-block;
+
+}
+
+.foot_menu a {
+    font-size: 12px;
+    color: #377bee;
+}
+
+.foot_menu a:hover {
+    text-decoration-line: underline;
+}
+
+.foot2019 {
+    width: 785px;
+    height: 53px;
+    margin: 0 auto;
+    margin-top: 19px;
+    background: url(../img/2019bottom.png) left center no-repeat;
+}
+
+.foot2019 a {
+    width: 157px;
+    height: 53px;
+    float: left;
+    margin-right: 10px;
+}
+
+/* 正品 */
+.choose {
+    height: 70px;
+    padding: 25px 0px;
+    background: #fff;
+    margin-top: 20px;
+    font-family: 'Microsoft yahei';
+    border-top: 1px solid #f8f8f8;
+    box-shadow: 0px 0px 5px #D5D5D5;
+}
+
+.choose_list {
+    width: 258px;
+    /* width: */
+    height: 70px;
+    float: left;
+    margin-left: 40px;
+
+}
+
+.choose .choose_list:nth-of-type(1) span {
+    background-position: 0px -72px;
+}
+
+.choose .choose_list:nth-of-type(2) span {
+    background-position: 0px -143px;
+}
+
+.choose .choose_list:nth-of-type(3) span {
+    background-position: 0px -214px;
+}
+
+.choose .choose_list:nth-of-type(4) span {
+    background-position: 0px -285px;
+}
+
+.choose_list span {
+    background-image: url(../img/newicon2018.png);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    float: left;
+    /* margin-left: 40px; */
+}
+
+.choose_list2 {
+    margin-left: 18px;
+}
+
+.choose_list2 h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4c4c4c;
+    display: block;
+    margin-top: 13px;
+    line-height: 18px !important;
+}
+
+.choose_list2 p {
+    font-size: 14px;
+    color: #666666;
+    display: block;
+    margin-top: 8px;
+    height: 18px;
+    line-height: 18px !important;
+}
+
+/* 导航 */
+.form_nav li {
+    line-height: 40px;
+    text-align: center;
+    padding: 0px 25px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.form_nav li:hover>a {
+    color: #3284dd;
+}
+
+.nav_triangle1,
+.nav_triangle2 {
+    width: 10px;
+    height: 5px;
+    background-image: url(../img/newicon2018.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 19px;
+}
+
+.nav_triangle1 {
+    background-position: -136px -3px;
+}
+
+.nav_triangle2 {
+    display: none;
+    background-position: -136px -14px;
+}
+
+.secondnav {
+    width: 102px;
+    background: #3284dd;
+    position: absolute;
+    left: 10px;
+    /* display: none; */
+    top: 40px;
+    z-index: 100001;
+}
+
+.secondnav>a {
+    width: 102px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    float: left;
+}
+.mainrig {
+    width: 350px;
+    height: 40px;
+    float: right;
+    position: relative;
+}
+
+.mainrig .phone {
+    width: 200px;
+    height: 45px;
+    margin-top: -5px;
+    float: right;
+    text-align: center;
+    background: url(../img/sph-400all.png) 20px 2px no-repeat;
+}
+
+.mainrig .phone p {
+    width: 145px;
+    height: 26px;
+    line-height: 30px;
+    font-size: 23.5px;
+    text-align: left;
+    display: block;
+    margin: 16px auto auto 38px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2f88dc;
+    letter-spacing: -0.5px;
+}
+
+.mainrig .consult {
+    width: 105px;
+    height: 48px;
+    background-image: url(../img/newicon2018.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    float: right;
+    margin: -9px 4px auto auto;
+    cursor: pointer;
+}
+
+.mainrig .consult a {
+    width: 105px;
+    height: 48px;
+    display: block;
+    cursor: pointer;
+}
+

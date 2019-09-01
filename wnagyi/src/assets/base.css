@@ -1,0 +1,19 @@
+﻿*{box-sizing:border-box;}
+body,p,h1,h2,h4,h5,h6,h3,ul,ol,dl,td,dd,input,textarea,option,hr,button,fieldset,legend{margin:0; padding:0;}
+a{text-decoration: none; color: #666;}
+a:link{color: #666;}
+a:hover{color: #333;}
+ul,li{list-style: none;}
+body{font:16px "微软雅黑";}
+img{vertical-align: top;/*display:block;*/ border: none;}
+input,area{outline:none;}
+i,em{font-style: normal;}
+h1,h2,h4,h5,h6,h3,b,strong{font-weight: normal;}
+table{border-collapse: collapse;}
+
+.clearFix:after{content:""; display: block; clear: both; height: 0; visibility: hidden;}
+.clearFix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+
+.border0{border:none!important;background: none!important;}

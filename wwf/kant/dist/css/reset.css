@@ -1,0 +1,423 @@
+/*注册 头部 */
+/* h1{
+    text-indent:-9999px;
+} */
+
+
+
+/* 头部 */
+
+.head_riglogo span {
+    line-height: 80px;
+}
+
+.head_riglogo a {
+    color: #ff5c4d;
+    font-size: 16px;
+}
+
+
+/* main 部分*/
+#reg .reg_main {
+    height: 320px;
+    width: 460px;
+    margin: 0px auto;
+    padding-top: 100px;
+}
+
+.follow {
+    margin: auto;
+    width: 445px;
+    height: 83px;
+    background-image: url(https://imgcdn.baiji.com.cn/images/logstep.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    /* background-position: 0px -83px;
+    background-position: 0px -166px; */
+}
+
+.reg_box {
+    padding: 50px 40px 0;
+}
+
+.hurdle {
+    border: 1px solid #dddddd;
+    height: 41px;
+    position: relative;
+    width: 378px;
+}
+
+.hurdle span {
+    display: inline-block;
+    width: 100px;
+    line-height: 41px;
+    padding-left: 19px;
+    color: #4e4e4e;
+}
+
+.reg_inps {
+    font-size: 16px;
+}
+
+.reg_p {
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 20px;
+    /* background-image: url(../img/kdlphicon.png); */
+    background-repeat: no-repeat;
+    background-position: -486px -96px;
+}
+
+.mem_tipicon01 {
+    width: 26px;
+    height: 26px;
+    background-image: url(../img/kdlphicon.png);
+    background-repeat: no-repeat;
+    background-position: -478px -129px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: none;
+}
+
+/* .reg_p{
+    line-height:30px;
+} */
+.reg_btn {
+    width: 380px;
+    height: 40px;
+    border: 1px solid #dddddd;
+    background: #fff;
+    /* margin-top: 30px; */
+    color: #373737;
+    margin-bottom: 30px;
+}
+
+.reg_btn1 {
+    width: 130px;
+    height: 39px;
+    /* border: 1px solid #dddddd; */
+    background: #fff;
+    /* margin-top: 30px; */
+    color: #373737;
+    border: none;
+
+    /* display: none; */
+}
+
+.reg_btnyan {
+    /* height: 100%; */
+    width: 120px;
+    background: #dddddd;
+    text-align: center;
+    line-height: 41px;
+    cursor: pointer;
+}
+
+.reg_input2 {
+    display: none;
+}
+
+.reg_btn2 {
+    width: 380px;
+    height: 40px;
+    background: #3283de;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.reg_input3 {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.reg_input3 strong {
+    display: block;
+    color: #555;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: 400;
+
+}
+
+.reg_input3 p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #99999b;
+}
+
+.reg_input3 a {
+    width: 180px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    color: #fff;
+    /* background: #3283de; */
+    background: #ff5c4d;
+    font-size: 16px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 4px;
+}
+
+/* //遮罩 */
+.nwadd_bla {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10002;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-attachment: scroll;
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+    display: none;
+}
+
+/* 注册页规范手册 */
+.mem_arg {
+    width: 550px;
+    border: 3px solid #f8f8f8;
+    padding-bottom: 5px;
+    background: #FFFFFF;
+    z-index: 1000002;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -278px;
+    display: none;
+    *position: absolute;
+    *top: 50%;
+    *left: 40%;
+    box-shadow: 0px 0px 80px #969696;
+}
+
+.mem_arg_t {
+    height: 40px;
+    line-height: 40px;
+    color: #000;
+    font-size: 16px;
+    text-indent: 10px;
+    background: #f8f8f8;
+}
+
+.mem_arg a.cloxx {
+    width: 28px;
+    height: 28px;
+    display: block;
+    background: url(https://imgcdn.baiji.com.cn/bj_img/goods/ddxx.gif) left -2px no-repeat;
+    *background: url(https://imgcdn.baiji.com.cn/bj_img/goods/ddxx.gif) left 0px no-repeat;
+    float: right;
+    margin-top: 5px;
+    *margin-top: -35px;
+    margin-right: 3px;
+}
+
+.mem_arg_scro {
+    height: 380px;
+    padding: 20px;
+    overflow-y: scroll;
+    line-height: 26px;
+}
+
+.mem_arg_but {
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.mem_arg_but a {
+    width: 104px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.mem_arg_but a.cancel {
+    background: #cccccc;
+    color: #676662;
+}
+
+.mem_arg_but a.argee {
+    background: #3283de;
+    color: #fff;
+    margin-left: 30px;
+}
+
+/* login账密部分 */
+#login_pas .login_inp1 {}
+
+.accounts1 {
+    background-position: -467px -161px;
+    margin-top: 32px;
+}
+
+.accounts2 {
+    background-position: -464px -198px;
+}
+
+.accounts1,
+.accounts2 {
+    padding-left: 45px;
+    border: 1px solid #dddddd;
+    width: 311px;
+    background-image: url(../img/kdlphicon.png);
+    background-repeat: no-repeat;
+}
+
+.accounts1 .login_inp1 {
+    height: 40px;
+    border: none;
+    font-size: 16px;
+}
+
+.accounts2 .login_inp2 {
+    height: 40px;
+    border: none;
+    font-size: 16px;
+}
+
+.login_hint,
+.login_hint2 {
+    line-height: 32px;
+    height: 32px;
+    color: red;
+    padding-left: 20px;
+    /* background-image: url(../img/kdlphicon.png); */
+    background-repeat: no-repeat;
+    background-position: -486px -96px;
+}
+
+/* login手机验证码部分 */
+.login_main {
+    background: url(../img/bgimg2018.jpg) center center no-repeat;
+    background-size: cover;
+    height: 505px;
+
+}
+
+.login_rigbox {
+    box-sizing: border-box;
+    width: 418px;
+    height: 445px;
+    background: #fff;
+    float: right;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 38px 30px 13px 30px;
+}
+
+.login_menu {
+    width: 358px;
+    border-bottom: 1px solid #e1edfd;
+    padding-bottom: 15px;
+    background-image: url(../img/login_menu1.png);
+    background-position: 54px 32px;
+    background-repeat: no-repeat;
+}
+
+.login_menu span {
+    float: left;
+    font-size: 15px;
+    color: #555555;
+    width: 178px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login_menu span:hover {
+    color: #72a8ee;
+}
+
+
+.login_menu i {
+    color: #eee;
+    width: 1px;
+    height: 20px;
+    float: left;
+}
+
+#login_inp {
+    margin-top: 32px;
+    display: none;
+}
+
+#login_inp>p:nth-of-type(2),
+#login_pas>p:nth-of-type(3) {
+    height: 14px;
+    padding: 0px 0 21px;
+}
+
+#login_inp>p>a:nth-child(1),
+#login_pas>p>a:nth-child(1) {
+    color: #555;
+    font-size: 14px;
+    float: left;
+}
+
+#login_inp>p>a:nth-child(2),
+#login_pas>p>a:nth-child(2) {
+    color: #62b1ea;
+    font-size: 14px;
+    float: right;
+}
+
+.login_btn {
+    height: 42px;
+    border-radius: 10px;
+    background: #3283de;
+    border: none;
+}
+
+/* qq微博登录 */
+.mem_logbox {
+    border-top: 1px solid #e5e5e5;
+    margin-top: 33px;
+}
+
+.mem_logbox p:nth-child(1) {
+    line-height: 30px;
+    color: #878988;
+    font-size: 12px;
+}
+
+.mem_loga a {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    margin-right: 10px;
+    background-image: url(../img/kdlphicon.png);
+    background-repeat: no-repeat;
+    border: 1px solid #ebebeb;
+    border-radius: 50%;
+}
+
+.mem_loga a:nth-child(1) {
+    background-position: -380px -95px;
+}
+
+.mem_loga a:nth-child(1):hover {
+    border-color: #62b1ea;
+}
+
+.mem_loga a:nth-child(2) {
+    background-position: -428px -95px;
+}
+
+.mem_loga a:nth-child(2):hover {
+    border-color: red;
+}
+
+.mem_loga a:nth-child(3) {
+    background-position: -428px -143px;
+}
+
+.mem_loga a:nth-child(3):hover {
+    border-color: green;
+}
